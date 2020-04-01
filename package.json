@@ -1,0 +1,31 @@
+{
+  "name": "rcsi",
+  "version": "1.0.0",
+  "description": "create .rc files",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noah19846/rcsi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noah19846/rcsi/issues"
+  },
+  "homepage": "https://github.com/noah19846/rcsi#readme",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "execa": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2"
+  }
+}
