@@ -1,3 +1,10 @@
 src/**/*.{js,ts}:
   - eslint --fix
-  - git add
+  - prettier --write
+
+./man.js:
+  - eslint --fix
+  - prettier --write
+
+src/**/*.{css,scss,sass,less,md,json}:
+  - prettier --write
